@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #305342;
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 85%;
+  text-align: center;
+  background-color: #305342;
+  height: 70px;
+  margin-top: 1%;
+}
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: black;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  width: 239px;
+}
+
+#navbar a:hover {
+  border-radius: 20px 20px;
+  background-color: #cccccc;
+  opacity: 0.5;
+}
+
+.text {
+  position: absolute;
+  width: 627px;
+  height: 33px;
+  top: 200px;
+
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  background: #5f6f52;
+  border-radius: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content img {
+  opacity: 0.7;
+}
+.facts {
+  background-color: #12331b;
+  width: 100%;
+  height: 250px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tomsk {
+  line-height: 24px;
+  text-align: center;
+  font-size: 20px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  color: white;
+  margin-top: 10px;
+}
+
+.factss {
+  background-color: #12331b;
+  width: 100%;
+  height: 260px;
+  color: white;
+  font-size: 24px;
+  padding-left: 10%;
+}
+
+.facts div {
+  width: 350px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  position: absolute;
+  bottom: calc(47% - 2px);
+  width: 620px;
+  height: 100px;
+  right: 0px;
+
+  background: #305342;
+  border-radius: 18px 0px 0px 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  text-align: center;
+
+  color: #b4e3cc;
+}
+.page1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  position: absolute;
+  bottom: calc(64% + 1px);
+  width: 620px;
+  height: 100px;
+  right: 0px;
+
+  background: #305342;
+  border-radius: 18px 0px 0px 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  text-align: center;
+
+  color: #b4e3cc;
+}
+.page1 a {
+  text-decoration: none;
+  color: #b4e3cc;
+}
+.page a {
+  text-decoration: none;
+  color: #b4e3cc;
+}
+
+.slider {
+  width: 180px;
+  height: 5px;
+
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.sliders {
+  width: 35px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px;
+}
+
+.infa {
+  background-color: #12331b;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photo {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.photo1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo1 .page {
+  bottom: calc(73% - 8px);
+}
+
+.sliders2 {
+  width: 35px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px;
+  position: relative;
+  left: 35px;
+}
+.sliders3 {
+  width: 35px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px;
+  position: relative;
+  left: 70px;
+}
+.sliders4 {
+  width: 35px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px;
+  position: relative;
+  left: 105px;
+}
+.sliders5 {
+  width: 35px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px;
+  position: relative;
+  left: 145px;
+}
+
+.bblock {
+  float: left; /*Задаем обтекание*/
+  line-height: 30px; /*Высота строки + верт. центрирования текста*/
+  font-size: 14px;
+  border: 2px solid white;
+  color: white;
+  margin-top: 60px;
+  width: 330px; /*Фиксируем ширину блока*/
+  height: 750px;
+  margin-right: 50px;
+  text-align: left;
+  margin-left: 50px;
+
+  padding: 20px 35px;
+  position: relative;
+}
+
+.bblock a {
+  position: absolute;
+  bottom: 10px;
+  text-decoration: underline;
+  color: #229f61;
+}
+
+.bblock h2 {
+  padding: 10px 0px 10px 15px;
+  border-left: 3px solid #3a572f;
+  color: #229f61;
+}
+
+.logo {
+  margin-top: 5px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.logo img {
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#line {
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  left: calc(60%-50px);
+  top: 1100px;
+
+  border: 1px solid #244734;
+  transform: rotate(90deg);
+}
+#line2 {
+  width: 35px;
+  height: 0px;
+
+  border: 1px solid #385f4c;
+  transform: rotate(90deg);
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.mainImage {
+  width: 1580px;
+  height: 870px;
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url(eda.jpg);
+}
+
+.img3 {
+  background-image: url(uda.jpg);
+}
+
+.img4 {
+  background-image: url(st.jpg);
+}
+
+.img5 {
+  background-image: url(1_2_1.jpg);
+}
